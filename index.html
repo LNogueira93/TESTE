@@ -1,43 +1,275 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Targget</title>
-<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/stylesTec.css" rel="stylesheet" type="text/css" />
 
 <script src="script/jquery.js"></script>
-<script src="script/fade.js"></script>
+<script src="script/nav.js"></script>
 
 </head>
 
-<body class = "home">
-<div id = "top">
-	<div id = "topInner">
-        <h1>TARGGET</h1>
-        <a id = "btnEnergia" href = "energia.html">Targget Energia</a>
-        <a id = "btnTecnologia" href = "tecnologia.html">Targget Tecnologia</a>
+<body>
+<div id = "sobe"></div>
+<div id = "topTecnologia">
+	<div id = "topTecnologiaInner">
+        <h1><a class = "nav" href = "sobe">TARGGET TECNOLOGIA</a></h1>
+        <ul>
+        	<li><a href = "index.html">HOME</a></li>
+            <li><a class = "nav selected" href = "quem-somos">QUEM SOMOS</a></li>
+            <li><a class = "nav" href = "clientes">CLIENTES</a></li>
+            <li><a class = "nav" href = "servicos">SERVIÇOS</a></li>
+            <li><a class = "nav" href = "parceiros">PARCEIROS</a></li>
+            <li><a class = "nav" href = "sistemas-prediais">SISTEMAS PREDIAIS</a></li>
+            <li><a class = "nav" href = "trabalhe-conosco">TRABALHE CONOSCO</a></li>
+            <li><a class="nav" href="footer">FALE CONOSCO</a></li>
+        </ul>
 	</div><!--topInner-->
 </div><!--top-->
 
-<div id = "content">
-	<div id = "foto">
-    	<img src="img/foto_home_tecnologia.png" id = "foto1" />
-        <img src="img/foto_home_energia.png" id = "foto2" />
-    </div><!--foto-->
-</div><!--content-->
+    <div id = "quem-somos">
+    	<div id = "quemInner">
+        
+        	<h2>QUEM SOMOS</h2>
+            
+            <div id = "quemLeft">
+            
+                <p><span>A TARGGET Tecnologia</span> é uma empresa especializada na integração de sistemas prediais.  Com larga experiência, conquistada em mais de 25 anos de mercado, os colaboradores de nossa empresa são focados no profissionalismo e seriedade para com os clientes.</p>
+                
+                <p><span>MISSÃO</span><br />
+                Desenvolver, comercializar e manter soluções integradas de sistemas prediais com alta tecnologia, garantindo a satisfação do cliente através de uma relação transparente.</p>
+                
+                <p><span>VISÃO</span><br />
+                Obter um crescimento sólido e estruturado através do engajamento da equipe.</p>
+                
+			</div><!--quemLeft-->
+
+			<div id = "quemRight">
+
+                <p>VALORES</p>
+                
+                <p>
+                <span>T</span>ransparência nas relações<br /> 
+                <span>A</span>gilidade<br />
+                <span>R</span>esponsabilidade  <br />
+                <span>G</span>arantia na prestação de serviços <br />
+                <span>G</span>estão Competente <br />
+                <span>É</span>tica <br />
+                <span>T</span>ime de talentos<br />
+                </p>
+                
+            </div><!--quemRight-->
+        </div><!--quemInner-->
+    </div><!--quem-somos-->
+    
+    <div id = "clientes">
+    	<div id = "clientesInner">
+        	<h2>CLIENTES</h2>
+            <p><img src="img/clientes_tecnologia.png" width="817" height="1163" /></p>
+    	</div><!--clientesInner-->
+    </div><!--clientes-->
+    
+    <div id = "servicos">
+    	<div id = "servicosInner">
+        	<h2>SERVIÇOS</h2>
+            
+            <p>A TARGGET Tecnologia possui equipes altamente treinadas junto aos seus 
+fornecedores e parceiros, capacitadas a oferecer os seguintes serviços:</p>
+
+			<ul>
+				<li>Projeto executivo</li>
+                <li>Instalação e gerenciamento</li>
+                <li>Comissionamento e testes</li>
+			</ul>
+            <ul>
+            	<li>Treinamento</li>
+                <li>Operação Assistida</li>
+                <li>Manutenção preventiva e corretiva</li>
+			</ul> 	                
+        </div><!--servicosInner-->
+    </div><!--servicos-->
+    
+    <div id = "parceiros">
+    	<div id = "parceirosInner">
+        	<h2>PARCEIROS</h2>
+            
+            <p>Como uma integradora de sistemas prediais, a <span>TARGGET Tecnologia</span> possui um excelente<br />
+relacionamento de parceria com os principais fabricantes de cada área de atuação.</p>
+			<p><img src="img/parceiros_tecnologia.png" width="817" height="330" /></p>
+        </div><!--parceirosInner-->
+    </div><!--parceiros-->
+    
+    <div id = "sistemas-prediais">
+    	<div id = "sistemasInner">
+        	<h2>SISTEMAS PREDIAIS</h2>
+            
+            <p>A TARGGET Tecnologia é uma empresa especializada na integração de sistemas prediais, com atuação nas soluções de:</p>
+            
+  	<ul id = "titulos">
+        <li class = "selected"><a class = "selected 1" href = "1">AUTOMAÇÃO<br />PREDIAL</a></li>
+        <li><a class = "2" href = "2">DETECÇÃO E ALARME<br />DE INCÊNDIOS</a></li>
+        <li><a class = "3" href = "3">CFTV</a></li>
+        <li><a class = "4" href = "4">CONTROLE<br />DE ACESSO</a></li>
+        <li><a class = "5" href = "5">CABEAMENTO<br />ESTRUTURADO</a></li>
+	</ul>    
+	<div id = "sliderProd">
+            
+            <div class = "prod1 selected">
+            <div class = "fotoContainer" style = "background:url(img/sistemas_prediais_automacao.png) center center no-repeat;">
+            </div>            
+            <h3>Automação Predial</h3>
+
+<p>A TARGGET Tecnologia coloca em prática o conceito de “edificio inteligente”, onde o investimento do cliente será aplicado em resultados reais de conforto, economia e segurança para o empreendimento.</p>
+
+<p>Através de uma engenharia aplicada as nossas soluções são customizadas para cada oportunidade, levando em consideração a necessidade e a performance desejada pelo cliente.</p>
+
+<p>As soluções fornecidas pela Targget são totalmente adequadas as novas metas mundiais de sustentabilidade e controle ambiental, possibilitando que os projetos possam ser registrados junto a USGBC (United States Green Building Council) e obter a certificação LEED (Leadership in Energy and Environmental Design). </p>
+
+<p>Podemos destacar as aplicações para:</p>
+
+<p>
+- Controle de Ar Condicionado<br />
+- Supervisão e Controle de Utilidades<br />
+- Controle de demanda<br />
+- Sonorização de ambientes<br />
+</p>
+            </div>
+            <div class = "prod2">
+                        <div class = "fotoContainer" style = "background:url(img/sistemas_prediais_deteccao.png) center center no-repeat;">
+                        </div>
+<h3>Detecção e Alarme de Incêndio</h3>
+
+<p>Para as soluções de Detecção e Alarme de Incêndio a TARGGET Tecnologia segue rigorosamente as normas NBR9441 e o Regulamento de Segurança Contra Incêndio das Edificações e Areas de Risco do Corpo de Bombeiros dos Estados Brasileiros.</p>
+
+<p>As aplicações definem os fabricantes ofertados, sempre utilizando produtos com certificações internacionais, tais como UL e FM.</p>
+
+<p>Possuimos soluções especificas para cada aplicação, tais como:</p>
+
+<p>
+- Detectores analógicos e endereçáveis<br />
+- Detectores óticos, termovelocimétricos e lineares<br />
+- Detecção por aspiração<br />
+- Detectores especiais de chama, a prova de explosão<br />
+</p>
+</div>
+<div class = "prod3">
+                        <div class = "fotoContainer" style = "background:url(img/sistemas_prediais_cftv.png) center center no-repeat;">
+                        </div>
+
+<h3>CFTV</h3>
+
+<p>Dentro de um dos mercados que mais evoluem tecnologicamente no segmento de segurança eletrônica, a TARGGET Tecnologia oferece modernas soluções de CFTV para as mais diversas aplicações, tais como:</p>
+
+<p>- CFTV IP <br />
+Softwares de Gerenciamento<br />
+Câmeras IP – fixas e móveis<br />
+Armazenamento inteligente, redundância, backup´s.</p>
+
+<p>
+- CFTV Analógico<br />
+Centrais Matriciais<br />
+Gravadores Profissionais <br />
+Câmeras IR, fixas, móveis</p>
+</div>
+<div class = "prod4">
+                        <div class = "fotoContainer" style = "background:url(img/sistemas_prediais_controle_de_acesso.png) center center no-repeat;">
+                        </div>
+<h3>Controle de acesso</h3>
+
+<p>A TARGGET Tecnologia atende integralmente o controle eletrônico de barreiras físicas, mais conhecido como Sistema de Controle de Acesso.</p>
+
+<p>Seguindo as tendências de mercado atuamos com as tecnologias de proximidade e biometria, sem deixar de lado os protocolos de comunicação, permitindo a integração entre sistemas de diferentes “sites”.</p>
+
+<p>Nossas soluções são aplicadas no controle de:</p>
+
+<p><span>- Veiculos =</span> cancelas articuladas ou não, de diferentes tamanhos.<br />
+<span>- Pedestres =</span> catracas com ou sem cofre, torniquetes, além de portas dos mais diversos tipos – vidro, ferro, aço, madeira, divisórias, etc.
+</p>
+</div>
+<div class = "prod5">
+                        <div class = "fotoContainer" style = "background:url(img/cabeamento.png) center center no-repeat;">
+                        </div>
+<h3>Cabeamento Estruturado</h3>
+
+<p>A palavra convergência nunca esteve tanto em evidência como nos dias de hoje. Antes só aplicada para rede de servidores, estações de trabalho, impressoras, telefones, switches, hubs, a solução de cabeamento estruturado está diretamente relacionada a soluções de controle de acesso, CFTV e automação predial, entre outros.</p>
+
+<p>Para isso a TARGGET Tecnologia busca novidades na concepção e implantação de redes de cabeamento estruturado, buscando ofertar o melhor em:</p>
+
+<p>- Conectividade<br />
+- Velocidade de trafego<br />
+- Integração<br />
+- Performance 
+</p>
+</div>
+</div><!--slider-->
+<ul id = "bullets">
+            	<li><a class = "1 selected" href = "1">1</a></li>
+                <li><a class = "2" href = "2">2</a></li>
+                <li><a class = "3" href = "3">3</a></li>
+                <li><a class = "4" href = "4">4</a></li>
+                <li><a class = "5" href = "5">5</a></li>
+            </ul>
+
+        </div><!--sistemasInner-->
+    </div><!--sistemas-prediais-->
+    
+    <div id = "trabalhe-conosco">
+    	<div id = "trabalheInner">
+        	<h2>TRABALHE CONOSCO</h2>
+            
+            <form action="envio_tecnologia.php" method="post">
+            	<p>
+                <label>Nome:</label>
+                <input type="text" name="nome" />
+                </p>
+                <p>
+                <label>E-mail:</label>
+                <input type="text" name="email" />
+                </p>
+                <p>
+                <label>Endereço:</label>
+                <input type="text" name="endereco" />
+                </p>
+                <p>
+                <label>Cidade:</label>
+                <input class = "cidade" type="text" name="cidade" />
+                <label class = "ufLabel">UF:</label>
+                <input class = "uf" type="text" name="uf" />
+                </p>
+                <p>
+                <label>Telefone:</label>
+                <input class = "ddd" type="text" name="dddTel" />
+                <input class = "tel" type="text" name="telefone" />
+                <label>Celular:</label>
+                <input class = "ddd" type="text" name="dddCel" />
+                <input class = "tel" type="text" name="celular" />
+                </p>
+                <p>
+                <label class = "curriculo">Cole abaixo seu currículo:</label>
+                <textarea name = "curriculo"></textarea>
+                </p>
+                <input type="submit" value = "ENVIAR" />
+            </form>
+        </div><!--trabalheInner-->
+    </div><!--trabalhe-conosco-->
 
 <div id = "footer">
 	<div  id = "footerInner">
-     <div id = "sp">
-	     <span>Contato:</span>
-        Rua da Paz, nº 693/697 - Alto da Boa Vista<br />
-		São Paulo - SP - CEP 04571-000 <br />
-        Tel.: +55 11 5505.3255<br />
-		Email: targget@targget.com.br<br />
-	 </div> 
-      <div id = "rj"></div>
-	  <div id = "end"></div>
+        <div id="sp">
+            <span>Contato:</span>
+            Rua da Paz, nº 693/697 - Alto da Boa Vista<br />
+            São Paulo - SP - CEP 04571-000 <br />
+            Tel.: +55 11 5505.3255<br />
+            Email: targget@targget.com.br<br />
+        </div>
+        <div id="rj"></div>
+        <div id="end"></div>
+        
+        <a class = "nav" id = "topo" href = "sobe">Topo</a>
 	</div><!--footerInner-->
+    <div id = "contato"></div>
 </div><!--footer-->
 </body>
 </html>
